@@ -3,19 +3,22 @@
 
 #!/bin/sh
 
-###Needs reference genome
-idx_dir="/fs/scratch/PJS0309/Grch38/Hisat2/Grch38/Grch38"
-#idx_dir="/fs/scratch/PJS0309/Grch38/Hisat2/Grch38/gc"
+###Index path (of either the reference genome of the composite genome):
+idx_dir="<Path/To/Your/Index>"
 
-splice_dir="/fs/scratch/PJS0309/Grch38/Hisat2/Grch38/splicesites.tsv"
+###Pathe to the splicesites file needed for the Hisat2
+splice_dir="<Path/To/Your/Hisat2/Splicesites>"
 
-###Needs reference genome
-SRC_DIR="/fs/scratch/PJS0310/Xiaolu-Labonte/Labonte_Human_vSUB/"
-out_dir="/fs/scratch/PJS0310/Xiaolu-Labonte/Labonte_Human_vSUB/Labonte_Human_vSUB_bam/"
+###Path to FastQ files folder
+SRC_DIR="<Path/To/Your/FastQ>"
+
+###Output directory
+out_dir="<Path/To/Your/OutPut>"
 
 cd $SRC_DIR
 for file in *_1.fastq.gz;
 do
+
 Base_Name=${file%.fastq.gz}
 out_file=${Base_Name%_*}
 out_name=${out_dir}${out_file}.bam
