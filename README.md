@@ -1,5 +1,5 @@
 
-![Logo](https://i.ibb.co/ryr90cC/V1.png)
+![Logo](/Assets/V1.png)
 
 
 
