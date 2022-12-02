@@ -6,7 +6,7 @@
 ###Index path (of either the reference genome or the composite genome):
 idx_dir="<Path/To/Your/Index>"
 
-###Pathe to the splicesites file needed for the Hisat2
+###Path to the splicesites file needed for the Hisat2
 splice_dir="<Path/To/Your/Hisat2/Splicesites>"
 
 ###Path to FastQ files folder
