@@ -24,3 +24,14 @@ The following Linux modules need to be installed to run this script:
 It is highly recommended to use a multiprocessing environement for parallel processing.
 All our alignment processing was performed on [Ohio Supercomputers Center (OSC)](https://www.osc.edu/) with two Nodes and 6 CPUs per task.
 
+
+### To align to reference genome:
+ - Built the index for Hisat2 using the reference genome.
+ - Change **idx_dir** to the path to your index directory.
+ - Use the Hisat command with the option _--avoid-pseudogene_ to avoid pseudogenes.
+
+### To align to the composite genome:
+ - Built the index for Hisat2 using the composite genome.
+ - Change **idx_dir** to the path to your index directory.
+ - OPTIONAL: use the Hisat command with the option _--avoid-pseudogene_ to avoid pseudogenes.
+ 
