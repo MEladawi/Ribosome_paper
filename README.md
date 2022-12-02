@@ -16,7 +16,8 @@ This repository contains the code utilized for the paper:
 
 ## Alignment Code
 The file **Alignment/Hisat_alignment_code.sh** contains the Linux shell scripts utilized to align the fastq files of the RNA-Seq data
-The following Linux modules need to be installed to rub this script:
+
+The following Linux modules need to be installed to run this script:
 - Hisat2 _(the version used in this work is 2.1.0)_
 - samtools _(the version used in this work is 1.9)_
 
