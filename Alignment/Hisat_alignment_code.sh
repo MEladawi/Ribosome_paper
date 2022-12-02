@@ -12,7 +12,7 @@ splice_dir="<Path/To/Your/Hisat2/Splicesites>"
 ###Path to FastQ files folder
 SRC_DIR="<Path/To/Your/FastQ>"
 
-###Output directory
+###Output directory (for generated BAM the files)
 out_dir="<Path/To/Your/OutPut>"
 
 cd $SRC_DIR
