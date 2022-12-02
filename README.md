@@ -1,5 +1,5 @@
 
-![Logo](/Assets/V1.png)
+![Logo](/Assets/ribosome_3d.png)
 
 
 
