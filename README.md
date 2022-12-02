@@ -27,11 +27,11 @@ All our alignment processing was performed on [Ohio Supercomputers Center (OSC)]
 
 ### To align to reference genome:
  - Built the index for Hisat2 using the reference genome.
- - Change **idx_dir** to the path to your index directory.
+ - Change **idx_dir** to the path to your reference genome index directory.
  - Use the Hisat command with the option _--avoid-pseudogene_ to avoid pseudogenes.
 
 ### To align to the composite genome:
  - Built the index for Hisat2 using the composite genome.
- - Change **idx_dir** to the path to your index directory.
+ - Change **idx_dir** to the path to your composite genome index directory.
  - OPTIONAL: use the Hisat command with the option _--avoid-pseudogene_ to avoid pseudogenes.
  
