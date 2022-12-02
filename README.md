@@ -8,7 +8,7 @@
 
 This repository contains the code utilized for the paper:
 
-**Title: Role of ribosomal heterogeneity in chronic stress**
+**Title:** _Role of ribosomal heterogeneity in chronic stress_
 
 **Authors:** TBD
 
