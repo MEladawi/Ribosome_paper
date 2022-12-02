@@ -4,12 +4,12 @@
 
 
 
-# Role of ribosomal heterogeneity in chronic stress
+# Role of Ribosomal Heterogeneity in Chronic Stress
 
 This repository contains the code utilized for the paper:
 
 **Title: Role of ribosomal heterogeneity in chronic stress**
 
-**Authors:TBD**
+**Authors:** TBD
 
-**DOI: TBD**
+**DOI:** TBD
