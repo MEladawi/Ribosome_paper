@@ -3,7 +3,7 @@
 
 #!/bin/sh
 
-###Index path (of either the reference genome of the composite genome):
+###Index path (of either the reference genome or the composite genome):
 idx_dir="<Path/To/Your/Index>"
 
 ###Pathe to the splicesites file needed for the Hisat2
