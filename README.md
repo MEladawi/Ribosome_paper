@@ -35,3 +35,9 @@ All our alignment processing was performed on [Ohio Supercomputers Center (OSC)]
  - Change **idx_dir** to the path to your composite genome index directory.
  - OPTIONAL: use the Hisat command with the option _--avoid-pseudogene_ to avoid pseudogenes.
  
+## GO parent child code
+The file **R/ParentChild.R** contains the R code utilized to generate:
+ - Get the frquencies of the ancestors of the GO terms of interest.
+ - Get the truth tables of the ancestors of interest.
+ 
+ 
