@@ -40,4 +40,21 @@ The file **R/ParentChild.R** contains the R code utilized to generate:
  - Get the frquencies of the ancestors of the GO terms of interest.
  - Get the truth tables of the ancestors of interest.
  
+## Seed genes correlation analysis code
+The file **R/seedGenes_analysis.R** contains the R code utilized to generate the correlation analysis files. 
+
+Four inpput files are needed:
+ - **seed_genes_up.csv** that contains a list up regulated seed genes.
+ - **seed_genes_down.csv** that contains a list down regulated seed genes.
+ - **seed_genes_non.csv** that contains a list not sigficantly differerent seed genes.
+ - **nData.csv** that contains the normalized genes expression data
+
+The following output files will be generated for each seed genes category (up, down, and non):
+ - **r_sig** contains the significant Pearson correlation values (p < 0.05)
+ - **r_sig_neg** contains only the negative significant Pearson correlation values (p < 0.05)
+ - **r_sig_pos** contains only the positive significant Pearson correlation values (p < 0.05)
+ - **r_sig_neg_count** contains the count of the genes that are (significantly) negatively correlated with each seed gene.
+ - **r_sig_pos_count** contains the count of the genes that are (significantly) positively correlated with each seed gene.
  
+ 
+
