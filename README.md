@@ -4,13 +4,13 @@
 
 
 
-# Role of Ribosomal Heterogeneity in Chronic Stress
+# Ribosomal dysregulation: A conserved pathophysiological mechanism in human depression and mouse chronic stress.
 
 This repository contains the code utilized for the paper:
 
-**Title:** _Role of ribosomal heterogeneity in chronic stress_
+**Title:** _Ribosomal dysregulation: A conserved pathophysiological mechanism in human depression and mouse chronic stress_
 
-**Authors:** TBD
+**Authors:** Xiaolu Zhang, Mahmoud A Eladawi, William George Ryan, Xiaoming Fan, Stephen Prevoznik, Trupti Devale, Barkha Ramnani, Malathi A Krishnamurthy, Etienne Sibille, Robert McCullumsmith, Toshifumi Tomoda, Rammohan Shukla
 
 **DOI:** TBD
 
